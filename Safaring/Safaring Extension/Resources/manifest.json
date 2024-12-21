@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "default_title": "My Extension",
+    "name": "My Safari Extension",
+    "version": "1.0",
+    "description": "A Safari Extension built with SwiftUI",
+    
+    "permissions": [
+        "activeTab"
+    ],
+    
+    "browser_action": {
+        "default_popup": "popup.html"
+    }
+}
